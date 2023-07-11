@@ -204,6 +204,20 @@
 
 
 /* section 04 End */
+/* Bonus sectiom Start */
+.bonus-sct{
+    height: 550px;
+    width: 100%;
+    background-image: url('./form.png');
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.primary-input{
+    margin-top: 5px;
+}
+
+/* Bonus sectiom End */
 /* section 05 Start */
 .section05{
     height: 500px;
