@@ -65,24 +65,28 @@
     margin-top: 100px;
 }
 .sct2-txt h3{
+    margin-left: 90px;
     font-size: 27px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
+.sct2-txt p{
+    font-size: 18px;
+    margin-left: 90px;
+}
 /* section2 images part start */
 .p-sct2-imgs{
     display: flex;
     align-items: center;
     margin-left: 400px;
-    gap: 15px;
+    gap: 20px;
 }
 .sct2-img1{
     height: 300px;
     width:250px;
     border-radius: 100px 100px 0px 0px;
     margin-top: 40px;
-    background-color: rgba(93, 250, 250, 0.929);
+    background-color: rgba(124, 253, 253, 0.929);
+    box-shadow: 4px 4px 6px gray,-4px -4px 6px gray;
     
 }
 .sct2-img2{
@@ -90,16 +94,16 @@
     width:250px;
     border-radius: 100px 100px 0px 0px;
     margin-top: 40px;
-    background-color: rgb(98, 198, 251);
-    
+    background-color: rgb(116, 206, 255);
+    box-shadow: 4px 4px 6px gray,-4px -4px 6px gray;
 }
 .sct2-img3{
     height:300px;
     width:250px;
     border-radius: 100px 100px 0px 0px;
     margin-top: 40px;
-    background-color: rgb(245, 102, 253);
-   
+    background-color: rgb(249, 131, 255);
+    box-shadow: 4px 4px 6px gray,-4px -4px 6px gray;
 }
 .sct2-img1 >img{
     height: 200px;
@@ -124,53 +128,82 @@
     padding-top:40px;
 }
 .sct2-img1 .p1{
-    padding-left: 26px ;
+    padding-left: 20px ;
     padding-top: 50px;
+    font-size: 18px;
 }
 .sct2-img2 .p2{
-    padding-left: 42px ;
+    padding-left: 30px ;
     padding-top: 31px;
+    font-size: 18px;
 }
 .sct2-img3 .p3{
-    padding-left: 39px;
+    padding-left: 32px;
     padding-top: 50px;
+    font-size: 18px;
 }
 /* section2 images part end */
-
-
-
 /* header part section 02 End */
 
 /* section 03 Start */
 .section03{
     width: 100%;
-    height: 340px;
+    height: 341px;
     background-color:rgba(249, 115, 153, 0.23) ;
 }
 .p-section3{
+    height: 340px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     padding-top: 100px;
 }
 .sct3-img{
-    height: 240px;
+    height: 241px;
     width: 190px;
-    margin-right: 400px;
+    margin-right: 410px;
+    margin-bottom: 150px;
 }
 .sct3-txt{
+    font-size: 18px;
     width: 50%;
     text-align: center;
     margin-left: 160px;
+    padding-bottom: 150px;
 }
 .sct3-txt p{
+    font-size: 15px;
     width: 50%;
     margin-left: 191px;
-    padding-bottom: 4px;
+    padding-bottom:5px;
 }
 .sct3-txt span{
     color: rgb(230, 36, 68);
 }
-
-
 /* section 03 End */
+/* section 04 Start */
+.section04{
+    height: 450px;
+}
+.sct4-txt{
+    text-align: center;
+    margin-top: 80px;
+}
+.sct4-txt h1{
+    font-size: 30px;
+}
+
+.p-sct4 .img1,.img2,.img3,.img4{
+    height: 255px;
+    width: 220px;
+    box-shadow: 4px 4px 6px gray;
+}
+.p-sct4{
+    display: flex;
+    margin-left: 320px;
+    gap: 10px;
+    align-items: center;
+    padding-top: 65px; 
+}
+
+
+/* section 04 End */
