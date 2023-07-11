@@ -247,7 +247,28 @@
 }
 /* section 05 End */
 /* Footer part Start */
-
-
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.footer-info{
+text-align: center;
+padding-top: 100px;
+}
+.footer-info h1{
+    font-size: 40px;
+}
+.footer-info p{
+    font-size: 18px;
+}
+.footer-info span{
+    color: rgb(254, 85, 113);
+}
+.footer-cpyright{
+    text-align: center;
+    padding-top: 200px;
+}
 
 /* Footer part Start */
