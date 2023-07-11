@@ -51,9 +51,6 @@
     transition: 1s;
     
 }
-
-
-
 /* header part section 01 End */
 
 /* header part section 02 Start */
@@ -207,3 +204,50 @@
 
 
 /* section 04 End */
+/* section 05 Start */
+.section05{
+    height: 500px;
+    width: 100%;
+}
+.sct5 .sct5-img{
+    background-image: url('./section05-flower01.png');
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 280px;
+    margin-top: 120px;
+    border-radius: 10px;
+    
+}
+.sct5-txt h1{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+.sct5-txt p{
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+.sct5-txt{
+    padding-top: 60px;
+    padding-right: 540px;
+}
+.input-mail{
+    padding: 15px 50px;
+    margin-left: 300px;
+    border: none;
+    border-radius: 5px;
+}
+.input-btn{
+    padding-top: 20px;
+}
+/* section 05 End */
+/* Footer part Start */
+
+
+
+/* Footer part Start */
