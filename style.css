@@ -27,6 +27,8 @@
     font-size: 50px;
     padding-top: 200px;
     padding-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
 
 }
 .header-txt p{
@@ -64,7 +66,8 @@
 .sct2-txt h3{
     margin-left: 90px;
     font-size: 27px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 .sct2-txt p{
     font-size: 18px;
@@ -187,6 +190,8 @@
 }
 .sct4-txt h1{
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 .p-sct4 .img1,.img2,.img3,.img4{
@@ -213,8 +218,110 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.primary-input{
-    margin-top: 5px;
+.p-bns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p-bns label{
+    font-size: 20px;
+}
+.form-info{
+    padding-top: 140px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.flwr-nm1{
+    margin-top: 60px;
+}
+.bks-nm1{
+    margin-top: 60px;
+}
+.primary-nm{
+    margin-top: 10px;
+}
+.box1 h2{
+    padding-top: 20px;
+    color: rgb(0, 136, 255);
+}
+.box2 h2{
+    padding-top: 20px;
+    color: blueviolet;
+}
+.form-info h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.bns-boxes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 120px;
+}
+.bns-boxes .box1{
+    height: 280px;
+    width: 300px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-radius: 70px 0px 80px 0px;
+    border: 5px dotted ;
+}
+.bns-boxes .box2{
+    height: 280px;
+    width: 300px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-radius:  0px 70px 0px 80px;
+    border: 5px dotted ;
+}
+
+.input1{
+    margin-top: 10px;
+    padding: 8px 30px; 
+    margin-left: 75px;
+
+}
+.input2{
+    margin-top: 10px;
+    padding: 8px 30px; 
+    margin-left: 68px;
+}
+.input3{
+    margin-top: 10px;
+    padding: 20px 30px; 
+    margin-left: 58px;
+}
+.input4{
+    margin-top: 10px;
+    padding: 8px 30px; 
+}
+
+.bns-btn-ckbx{
+    text-align: center;
+    padding-left: 735px;
+    padding-top: 30px;
+}
+.bns-btn-ckbx p{
+    padding-bottom: 15px;
+}
+.bns-btn-ckbx button{
+    padding: 10px 30px;
+    border: none;
+    background-color: rgb(252, 68, 102);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.bns-btn-ckbx button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+    cursor: pointer;
 }
 
 /* Bonus sectiom End */
@@ -223,22 +330,26 @@
     height: 500px;
     width: 100%;
 }
+.p2-sct5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .sct5 .sct5-img{
     background-image: url('./section05-flower01.png');
     height: 300px;
     width: 100%;
-    display: inline-block;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 280px;
-    margin-top: 120px;
-    border-radius: 10px;
-    
+    margin-top: 110px;
+    border-radius:10px;  
 }
 .sct5-txt h1{
     display: block;
     font-size: 30px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 .sct5-txt p{
     display: block;
@@ -248,7 +359,7 @@
 }
 .sct5-txt{
     padding-top: 60px;
-    padding-right: 540px;
+    
 }
 .input-mail{
     padding: 15px 50px;
@@ -258,11 +369,12 @@
 }
 .input-btn{
     padding-top: 20px;
+    margin-right: 300px;
 }
 /* section 05 End */
 /* Footer part Start */
 footer{
-    height: 400px;
+    height: 407px;
     width: 100%;
     background-color: black;
     color: white;
@@ -273,6 +385,8 @@ padding-top: 100px;
 }
 .footer-info h1{
     font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 .footer-info p{
     font-size: 18px;
@@ -282,7 +396,7 @@ padding-top: 100px;
 }
 .footer-cpyright{
     text-align: center;
-    padding-top: 200px;
+    padding-top: 190px;
 }
 
 /* Footer part Start */
